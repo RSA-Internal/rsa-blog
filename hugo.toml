@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'RSA Blog'
 theme = 're-terminal'
 
 [params]
