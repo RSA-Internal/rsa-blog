@@ -1,7 +1,30 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'RSA Blog'
-theme = 're-terminal'
+theme = 'not-much'
 
-[params]
-themeColor = "red"
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = "github-dark"
+
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+title = "Posts"
+url = "/posts"
+weight = 1
+
+[[menu.main]]
+identifier = "github"
+name = "github"
+title = "GitHub"
+url = "https://github.com/imgios"
+weight = 3
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+title = "tags"
+url = "/tags"
+weight = 2
