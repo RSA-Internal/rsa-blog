@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://blog.rsa.gg/'
 languageCode = 'en-us'
 title = 'RSA Blog'
 theme = 'not-much'
